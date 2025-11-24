@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+
+.input-field {
+  @apply w-full p-3 border border-gray-300 rounded-md;
+}
+.button-primary {
+  @apply w-full p-2 border border-gray-300 rounded-md  bg-[#1877f2] text-white font-semibold hover:bg-[#1877f2]/70;
+}
+.button-secondary {
+  @apply w-3/4 p-3  border border-gray-300 rounded-md  bg-[#42b72a] text-white hover:bg-[#40ac2b] mix-blend-multiply;
+}
+.big-text{
+  @apply text-[18px] font-bold;
+}
+
+
