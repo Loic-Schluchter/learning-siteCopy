@@ -61,7 +61,7 @@ Facebook/
 ## 🚀 Déploiement
 
 Le projet est déployé publiquement via **Vercel**  
-(si une URL est ajoutée ultérieurement, elle sera indiquée ici).
+https://facebook-steel-seven.vercel.app/.
 
 ---
 
