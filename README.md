@@ -23,13 +23,12 @@ Chaque projet est réalisé **from scratch**, en se concentrant sur :
 
 ---
 
-## 🗂 Structure du dépôt
+🚀 Déploiement
+Le projet est déployé publiquement via Vercel :
 
-Chaque dossier correspond à un site ou une interface reproduite.
-
-
-Chaque projet est **indépendant**, avec sa propre configuration si nécessaire.
-
+🔗 URL :
+**Instagram :** https://instagram-amber-nine.vercel.app/
+**Facebook :** https://facebook-steel-seven.vercel.app/
 ---
 
 ## 🛠 Technologies utilisées
