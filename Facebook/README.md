@@ -39,19 +39,20 @@ Aucun code source officiel de Facebook n’a été utilisé.
 ## 📂 Structure du projet
 
 Facebook/
-├─ public/
-├─ src/
-│  ├─ assets/
-│  ├─ LoginPage.jsx
-│  ├─ Style.css
-│  ├─ main.jsx
-├─ index.html
-├─ package.json
-├─ package-lock.json
-├─ vite.config.js
-├─ eslint.config.js
-├─ .gitignore
-└─ README.md
+- public/
+- src/
+  - assets/
+  - LoginPage.jsx
+  - Style.css
+  - main.jsx
+- index.html
+- package.json
+- package-lock.json
+- vite.config.js
+- eslint.config.js
+- .gitignore
+- README.md
+
 
 
 
