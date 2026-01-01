@@ -30,15 +30,6 @@ Chaque dossier correspond à un site ou une interface reproduite.
 
 Chaque projet est **indépendant**, avec sa propre configuration si nécessaire.
 
-SiteCopy/
-├── Facebook/
-├── Instagram/
-│ ├── src/
-│ ├── public/
-│ ├── package.json
-│ └── ...
-├── README.md
-
 ---
 
 ## 🛠 Technologies utilisées
