@@ -40,6 +40,7 @@ Aucun code source officiel d’Instagram n’a été utilisé.
 
 Instagram/
 - src/
+  - assets/
   - components/
     - Login.jsx
   - App.jsx
@@ -47,6 +48,7 @@ Instagram/
 - public/
 - package.json
 - README.md
+
 
 
 ---
