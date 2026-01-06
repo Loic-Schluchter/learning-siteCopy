@@ -4,15 +4,15 @@ import FacebookLogo from "../assets/Facebook.png";
 
 export default function login() {
   return (
-    <main className="bg-[#0c1014] min-h-screen flex flex-col text-white text-sm">
-      <article className="flex-1 flex justify-center items-center gap-20">
-        <div className="flex items-center justify-center">
+    <main className="bg-[#0c1014] min-h-screen flex flex-col  text-white text-sm px-4 justify-center items-center md:px-0 md:py-20">
+      <article className="flex flex-col md:flex-row md:flex-1 md:gap-20 ">
+        <div className="flex items-center justify-center my-8 md:my-0">
           <img className="logo" src={InstagramLogo} alt="Instagram Logo" />
         </div>
 
-        <div className="flex flex-col items-center justify-center w-[350px] ">
+        <div className="flex flex-col items-center justify-center w-full max-w-sm">
           <h1 className="text-6xl font-story text-center my-8">Instagram</h1>
-          <form action="login" className="flex flex-col w-full px-8 gap-1">
+          <form action="login" className="flex flex-col w-full gap-3">
             <input
               className="input-form"
               type="text"
@@ -31,9 +31,13 @@ export default function login() {
             </div>
             <div className="flex flex-col items-center justify-center gap-4 my-0 ">
               <div className="flex gap-2">
-                <img className="small-logo " src={FacebookLogo} alt="" />
+                <img
+                  className="small-logo "
+                  src={FacebookLogo}
+                  alt="Facebook-logo"
+                />
                 <a
-                  href="https://site-copy-hheihm6l3-loic-schluchters-projects.vercel.app"
+                  href="https://facebook-steel-seven.vercel.app/"
                   className="text-[#0095f6] hover:font-medium hover:opacity-80"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -45,7 +49,7 @@ export default function login() {
               <a className="font-bold" href="">
                 Mot de passe oublié ?
               </a>
-              <p className="my-6">
+              <p className="my-6 flex flex-col items-center">
                 Vous n&apos;avez pas de compte ?{" "}
                 <a href="" className="text-[#0095f6]">
                   Inscrivez-vous
@@ -55,7 +59,7 @@ export default function login() {
           </form>
         </div>
       </article>
-      <footer className="w-full px-16 my-12">
+      <footer className="hidden md:block w-full px-16 my-12">
         <div className="flex flex-col items-center justify-center gap-4 text-xs text-gray-200/60">
           <nav className="flex gap-x-6 gap-y-2  flex-wrap justify-center [&_a]:hover:underline">
             <a href="#">Meta</a>

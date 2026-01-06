@@ -11,7 +11,7 @@
     }
 
 .logo{
-    @apply  rounded-full max-w-64;
+    @apply  rounded-full max-w-25 md:max-w-64;
    
     }
 
@@ -21,7 +21,7 @@
     }
 .button-login{
 
-    @apply bg-[#3846b5] rounded-xl p-1.5 my-2 w-full text-white font-bold;
+    @apply bg-[#3846b5] rounded-xl p-1.5 my-2 w-full text-white font-bold py-2;
    
     }
 .line{
