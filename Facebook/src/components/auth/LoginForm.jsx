@@ -1,7 +1,5 @@
 import React from "react";
-import Input from "../UI/Input.jsx";
 import LoginAccountButton from "./LoginAccountButton.jsx";
-
 
 export default function LoginForm() {
   return (
@@ -19,7 +17,6 @@ export default function LoginForm() {
         />
       </div>
       <LoginAccountButton />
-
     </form>
   );
 }
