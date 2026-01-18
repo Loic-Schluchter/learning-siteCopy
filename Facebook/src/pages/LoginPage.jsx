@@ -10,23 +10,25 @@ export default function LoginPage() {
   return (
     <main className="flex flex-col h-screen">
       <DownloadBanner />
-      <div className="flex items-center flex-1 flex-col md:flex-row md:bg-[#dee2e9]">
-        <div className="flex flex-1 h-1/4 items-center justify-center ">
-          <FacebookBranding />
-        </div>
-        <div className="flex-1 flex flex-col px-4 w-full">
-          <div className="flex-1 flex  md:justify-center">
-            <div className="w-full max-w-md md:shadow-lg md:p-6 md:bg-white md:rounded-lg md:h-1/2">
-              <LoginForm />
-              <ForgotPasswordLink />
-              <div className="hidden md:flex md:mx-auto">
-                <CreateAccountButton variant="tertiary" />
+      <div className=" flex flex-1 md:bg-[#dee2e9]">
+        <div className="flex items-center flex-1 flex-col md:flex-row">
+          <div className="flex flex-1 md:justify-end items-center">
+            <FacebookBranding />
+          </div>
+          <div className="flex-1 flex flex-col w-full">
+            <div className="flex-1 flex  md:justify-center p-4">
+              <div className="w-full md:max-w-fit md:shadow-lg md:p-4 md:bg-white md:rounded-md">
+                <LoginForm />
+                <ForgotPasswordLink />
+                <div className="hidden md:flex md:mx-auto">
+                  <CreateAccountButton variant="tertiary" />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="md:w-full md:flex-1 md:justify-center md:flex  md:items-center px-4 py-2">
+      <div className="md:w-full md:h-1/4 md:justify-center md:flex  md:items-center px-4 py-2">
         <Footer />
       </div>
     </main>

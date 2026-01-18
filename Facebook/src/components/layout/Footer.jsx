@@ -4,7 +4,7 @@ import MetaLogo from '../branding/MetaLogo.jsx'
 
 export default function Footer() {
   return (
-    <div>
+    <div >
       <div className="md:hidden">
       <CreateAccount variant="secondary" />
       <MetaLogo />
