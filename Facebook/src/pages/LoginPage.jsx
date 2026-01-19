@@ -17,9 +17,11 @@ export default function LoginPage() {
           </div>
           <div className="flex-1 flex flex-col w-full">
             <div className="flex-1 flex  md:justify-center p-4">
-              <div className="w-full md:max-w-fit md:shadow-lg md:p-4 md:bg-white md:rounded-md">
+              <div className="w-full md:max-w-[386px] md:shadow-lg md:p-4 md:bg-white md:rounded-md">
                 <LoginForm />
                 <ForgotPasswordLink />
+                <div class="h-px bg-gray-300 my-4"></div>
+
                 <div className="hidden md:flex md:mx-auto">
                   <CreateAccountButton variant="tertiary" />
                 </div>
