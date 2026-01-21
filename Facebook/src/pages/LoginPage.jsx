@@ -10,9 +10,11 @@ import Divider from "../components/ui/Divider.jsx";
 export default function LoginPage() {
   return (
     <main className="flex flex-col h-screen">
+      <div className="md:hidden">
       <DownloadBanner />
+      </div>
       <div className=" flex flex-1 md:bg-[#dee2e9]">
-        <div className="flex items-center flex-1 flex-col md:flex-row">
+        <div className="flex items-center w-full flex-col md:flex-row">
           <div className="flex flex-1 md:justify-end items-center">
             <FacebookBranding />
           </div>
