@@ -16,7 +16,7 @@ export default function LoginPage() {
             <FacebookBranding />
           </div>
           <div className="flex-1 flex flex-col w-full">
-            <div className="flex-1 flex  md:justify-center p-4">
+            <div className="flex-1 flex md:flex-none md:ml-30 p-4">
               <div className="w-full md:max-w-[386px] md:shadow-lg md:p-4 md:bg-white md:rounded-md">
                 <LoginForm />
                 <ForgotPasswordLink />
