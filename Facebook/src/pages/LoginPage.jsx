@@ -5,6 +5,7 @@ import LoginForm from "../components/auth/LoginForm.jsx";
 import Footer from "../components/layout/Footer.jsx";
 import ForgotPasswordLink from "../components/auth/ForgotPasswordLink.jsx";
 import CreateAccountButton from "../components/auth/CreateAccountButton.jsx";
+import Divider from "../components/ui/Divider.jsx";
 
 export default function LoginPage() {
   return (
@@ -20,9 +21,8 @@ export default function LoginPage() {
               <div className="w-full md:max-w-[386px] md:shadow-lg md:p-4 md:bg-white md:rounded-md">
                 <LoginForm />
                 <ForgotPasswordLink />
-                <div class="h-px bg-gray-300 my-4"></div>
-
-                <div className="hidden md:flex md:mx-auto">
+                <Divider />
+                <div className="hidden md:flex ">
                   <CreateAccountButton variant="tertiary" />
                 </div>
               </div>
